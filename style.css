@@ -1,4 +1,4 @@
-google fonts link
+/* google fonts link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 /* common css style */
@@ -8,6 +8,7 @@ google fonts link
 }
 body {
     font-family: 'Poppins', sans-serif;
+    background: rgb(255, 255, 255);
 }
 .container {
     width: 1160px;
@@ -92,10 +93,7 @@ nav ul li a {
 }
 
 
-/* main section */
-main {
-    background: #f0f0f0;
-}
+
 /* player section */
 .players-section {
     padding-top: 70px;
