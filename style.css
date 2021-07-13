@@ -144,3 +144,33 @@ nav ul li a {
     display: block;
     margin: auto;
 }
+
+
+/* footer section */
+.footer {
+    margin-top: 160px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer img {
+    width: 30%;
+}
+.footer ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+.footer ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    background: rgb(190, 190, 190);
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #5e5e5e;
+}
