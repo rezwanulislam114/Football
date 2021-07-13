@@ -8,7 +8,6 @@
 }
 body {
     font-family: 'Poppins', sans-serif;
-    background: rgb(255, 255, 255);
 }
 .container {
     width: 1160px;
@@ -61,7 +60,7 @@ nav ul li a {
     font-size: 64px;
     color: #fff;
 }
-.banner-text a {
+.link-button {
     text-decoration: none;
     color: #fff;
     background: #e02c6d;
@@ -70,10 +69,10 @@ nav ul li a {
     margin-top: 30px;
     transition: color .5s, background .5s;
 }
-.banner-text a i {
+.link-button i {
     margin-left: 10px;
 }
-.banner-text a:hover {
+.link-button:hover {
     background: #fff;
     color: #e02c6d;
 }
@@ -115,4 +114,33 @@ nav ul li a {
 }
 .player img {    
     width: 100%;
+}
+
+
+
+/* highlights section */
+.highlights-section {
+    margin-top: 165px;
+}
+.highlights {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.highlights-text {
+    flex-basis: 50%;
+    margin-right: 70px;
+}
+.highlights-text h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.highlights-image {
+    flex-basis: 50%;
+}
+.highlights-image img {
+    width: 570px;
+    height: 400px;
+    display: block;
+    margin: auto;
 }
