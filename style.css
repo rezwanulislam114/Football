@@ -10,22 +10,25 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 .container {
-    width: 1160px;
+    max-width: 1160px;
     margin: auto;
 }
 
 
 /* header section */
+/* nav section */
 header {
     background: #2d25a0;
 }
-/* nav section */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 45px;
-    padding-top: 40px;
+    padding: 40px 0;
+}
+nav > i.fa-bars {
+    display: none;
 }
 nav ul li {
     list-style: none;
@@ -47,11 +50,14 @@ nav ul li a {
     margin-right: 10px;
 }
 /* banner section */
+.banner-section {
+    background: #2d25a0;
+}
 .banner {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 650px;
+    height: 85vh;
 }
 .banner-text {
     flex-basis: 50%;
@@ -103,7 +109,7 @@ nav ul li a {
     row-gap: 30px
 }
 .player {
-    width: 330px;
+    max-width: 330px;
     background: #fff;
     padding: 15px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -173,4 +179,66 @@ nav ul li a {
     justify-content: center;
     border-radius: 50%;
     color: #5e5e5e;
+}
+
+
+
+
+
+/* media quries */
+@media only screen and (max-width: 688px) {
+    .container {
+        padding: 0 20px;
+    }
+    nav ul {
+        display: none;
+    }
+    nav > i.fa-bars {
+        display: block;
+        color: #fff;
+        font-size: 30px;
+    }
+    .banner {
+        flex-direction: column;
+        padding-top: 25px;
+    }
+    .banner-text h1 {
+        font-size: 34px;
+    }
+    .link-button {
+        margin-top: 15px;
+    }
+    .banner-image img {
+        width: 85%;
+    }    
+    
+
+    .players {
+        grid-template-columns: 1fr;
+        margin-top: 60px;
+    }
+
+
+    .highlights-section {
+        margin-top: 60px;
+    }
+    .highlights {
+        flex-direction: column;
+    }
+    .highlights-text h2 {
+        font-size: 30px;
+    }
+    .highlights-image Img {
+        width: 330px;
+        height: 250px;
+        margin-top: 25px;
+    }
+
+
+    .footer img {
+        width: 60%;
+    }
+    .footer ul li {
+        margin: 20px 10px;
+    }
 }
