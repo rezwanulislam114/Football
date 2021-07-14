@@ -49,6 +49,9 @@ nav ul li a {
 .login i {
     margin-right: 10px;
 }
+
+
+
 /* banner section */
 .banner-section {
     background: #2d25a0;
@@ -299,7 +302,10 @@ hr.line {
     }
     .banner-image img {
         width: 85%;
-    }    
+    } 
+    .banner-image img:hover {
+        transform: none;
+    }   
     
 
     /* players part */
