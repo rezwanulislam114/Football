@@ -187,9 +187,13 @@ nav ul li a {
 
 /* media quries */
 @media only screen and (max-width: 688px) {
+    /* common part */
     .container {
         padding: 0 20px;
     }
+
+
+    /* header part */
     nav ul {
         display: none;
     }
@@ -198,6 +202,9 @@ nav ul li a {
         color: #fff;
         font-size: 30px;
     }
+
+
+    /* banner part */
     .banner {
         flex-direction: column;
         padding-top: 25px;
@@ -213,12 +220,14 @@ nav ul li a {
     }    
     
 
+    /* players part */
     .players {
         grid-template-columns: 1fr;
         margin-top: 60px;
     }
 
 
+    /* highlights part */
     .highlights-section {
         margin-top: 60px;
     }
@@ -235,6 +244,7 @@ nav ul li a {
     }
 
 
+    /* footer part */
     .footer img {
         width: 60%;
     }
